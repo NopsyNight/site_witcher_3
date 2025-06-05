@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   background-color: var(--cor-1--);
   color: var(--cor-2--);
+  overflow-x: hidden;
 }
 
 main {
@@ -119,7 +120,6 @@ body {
   cursor: pointer;
 }
 
-
 #theme-toggle {
   background: none;
   border: none;
@@ -196,7 +196,6 @@ main#conteudo-cdprojektred {
   color: var(--cor-4--);
   margin-bottom: 20px;
 }
-
 
 .witcher-media-section {
   margin: 40px 0;
