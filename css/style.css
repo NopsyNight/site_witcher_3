@@ -369,7 +369,10 @@ main#conteudo-cdprojektred {
   color: var(--cor-5--);
 }
 
-.pagina-bruxo {
+.pagina-bruxo,
+.pagina-mundo,
+.pagina-cdprojekt,
+.pagina-comunidade {
   background-color: var(--cor-1--);
   color: var(--cor-3--);
 }
@@ -696,11 +699,6 @@ main#conteudo-cdprojektred {
   line-height: 1.6;
 }
 
-.pagina-mundo {
-  background-color: var(--cor-1--);
-  color: var(--cor-3--);
-}
-
 .hero-mundo {
   position: relative;
   height: 60vh;
@@ -779,12 +777,6 @@ main#conteudo-cdprojektred {
 .cartao-regiao:nth-child(4) { border-left: 4px solid #7a5c58; } /* Kaer Morhen */
 .cartao-regiao:nth-child(5) { border-left: 4px solid #3a6b84; } /* Skellige */
 .cartao-regiao:nth-child(6) { border-left: 4px solid #b54b4b; } /* Toussaint */
-
-/* Estilos específicos para página da CD Projekt RED */
-.pagina-cdprojekt {
-  background-color: var(--cor-1--);
-  color: var(--cor-3--);
-}
 
 /* Seção Hero */
 .secao-empresa {
@@ -965,11 +957,6 @@ main#conteudo-cdprojektred {
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   font-size: 0.8rem;
-}
-
-.pagina-comunidade {
-  background-color: var(--cor-1--);
-  color: var(--cor-3--);
 }
 
 /* Seção Hero */
